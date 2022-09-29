@@ -1,0 +1,28 @@
+table {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+th {
+    background-color: purple;
+    color: white;
+}
+
+td {
+    background-color: aqua;
+}
+
+td:first-child {
+    background-color: chartreuse;
+}
+
+@media screen and (max-width:768px) {
+    #container {
+        width: 90%;
+    }
+
+    table {
+        width: 100%;
+    }
+}
